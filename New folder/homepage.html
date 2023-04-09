@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        header{
+            display: flex;
+            text-align: left;
+            padding: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li {
+  float: left;
+}
+.right{
+    float: right;
+}
+
+li a, .dropbtn ,.right a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover {
+  background-color: #111;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;}
+.dropdown-content a:hover,.right a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+li a:hover, .right li a:hover{
+
+  background-color: #04AA6D;
+}
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#WomensLaw {
+  top: 260px;
+  background-color: #04AA6D;
+}
+
+#blog {
+  top: 330px;
+  background-color: #2196F3;
+}
+
+#achivements {
+  top: 410px;
+  background-color: #f44336;
+}
+
+#CitizenServices {
+  top: 490px;
+  background-color: #555
+}
+.row {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.row {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.main-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-1 p {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2f2f2f;
+    font-weight: 400;
+    width: 82%;
+    margin: 0 0 20px 0;
+}article{
+    background-color:powderblue;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.col {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+.img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head-left" >
+                <div class="logo">
+                    <a href="homepage.html">
+                        <img src="HeadLogo.png" alt="Cyberabad police">
+                    </a>
+                </div>
+            </div>
+        </div>
+       <div class="head title">
+        <p><br><span class="span" style="font-size: 50px;">CYBERABAD METROPOLITAN POLICE</span></br> TELANGANA STATE-INDIA</p>
+       </div>
+    </header>
+    <body>
+
+        <ul>
+          <li><a class="active" href="homepage.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Take Action</a>
+            <div class="dropdown-content">
+              <a href="#">Share Your Story</a>
+              <a href="#">Incident</a>
+              <a href="#">Safety Tips</a>
+            </div>
+          </li>
+
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="#about">About</a></li>
+        
+    <div class="right">
+    
+       <li> <a  href="sample.html">Login</a></li>
+    
+       <li>  <a href="form.html">Register</a> </li>
+       <li>  <a href="complaintform.html">Lodge Compaliant</a> </li> </div>
+</ul>
+<marquee width="100%" behavior="alternate" bgcolor="yellow" style="color: red">  
+    PRESERVING THE PEACE OF EVERY CITIZEN!
+    </marquee> 
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="WomensLaw">Women'sLaw</a>
+        <a href="#" id="blog">Blog</a>
+        <a href="#" id="achivements">Achievements</a>
+        <a href="#" id="CitizenServices">Services</a>
+      </div>
+      
+
+    <div class="main_banner">
+    	<ul class="bxslider">
+                	<li>
+                    <div class="banner_1">
+                        <img src="banner.jpg" width="1600px" height="191px " >
+                    </div>
+                </li>
+                <li>
+                </li> 	
+      </ul>
+    </div>
+    <div class="main-content" style="background-color: #e0efff;" >
+        <div class="row">
+            <img src="officer.png" alt="officer" width="300" height="300px" style="padding: 20px">
+        </div>
+        <div class="row-1"  style="padding: 20px" >
+        	<h3 style="font-size: x-large">M. STEPHEN RAVINDRA, IPS</h3>
+            <h4 style="font-size: large;">Commissioner of Police, Cyberabad</h4>
+            <p  >On behalf of Cyberabad Police, I welcome you to our official website.  I hope the information provided within this site will be a valuable resource to citizens. We are dedicated to serve our people and make Cyberabad Police Commissionerate area a safer place to dwell, work, visit, transit or conduct business.</p>
+            <p >"Your Safety, Our Concern"  is something we feel from the bottom of our hearts and which we will try to fulfil in the execution of our duties.</p>
+        </div>
+
+    </div>
+    <section>
+        <h2 style="text-align: center;">OUR GALLERY</h2>
+        <img src="march.webp" alt="Cyberabad" width="33%">
+        
+        <img src="media.webp" alt="Cyberabad" width="33%">
+        <img src="snatch.webp" alt="Cyberabad" width="33%" height="280px">
+        <br>
+        <br>
+        <img src="trains.webp" alt="Cyberabad" width="33%">
+        
+        <img src="passed.webp" alt="Cyberabad" width="33%">
+        <img src="rape.webp" alt="Cyberabad" width="33%">
+        
+        
+    </section>
+    <article>
+        <h4>How to file a Police FIR/complaint online</h4>
+        <p>FIR in simple words is First Information Report. An FIR is a written document which is prepared by the police in India. It is prepared when the police receive information about the commission of a cognizable offence. In simple words, it is a complaint lodged with the police by the victim of a cognizable offence or by someone on his or her behalf, but anyone can make such a report either orally or in writing to the police. People can also lodge an FIR through online medium.</p>
+        <h4>Important information to keep in mind:</h4>
+        <p>
+            You have to fill up the personal details while filing an FIR. The following options will be there:-
+            
+            
+            Enter the complainant's name: Fill the name of the person who wants to lodge the e-FIR
+            Enter the father's/mother's name: Fill the complainant's parents' name
+            Enter the complainant's Address- Enter the full address
+            Enter complainant's mobile number- complainant's working mobile number.
+            Enter complainant's email ID: Email-ID is important because a copy of your e-FIR will be sent to you via email for verification.
+            </p>
+    </article>
+    <section class="img">
+        <h3 style="text-align: center;">
+            OUR FOUNDERS
+        </h3>
+        <img src="sajanar.webp" alt="sajanar" width="200px" height="200px"> <br>
+        <img src="officer.png" alt="sajanar" width="200px"  height="200px"><br>
+        <a style="display:block;text-align: center; " href="#">Facebook</a>
+        <a style="display:block;text-align: center; " href="#">Instagram</a>
+        <a style="display:block;text-align: center; " href="#">Twitter</a>
+
+
+    </section>
+    <section style="text-align: center;">
+       
+        <h3>EMERGENCY CONTACTS</h3>
+        <p >Dial: 100 <br>
+            Women Cell: 9494731100 <br>
+            Control Room (M): 9490617100 <br>
+            Control Room (L): 040-27853412</p></div>
+        
+    </section>
+
+</body>
+<footer style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    <p >Copyright@2021</p>
+</footer>
+</html>
